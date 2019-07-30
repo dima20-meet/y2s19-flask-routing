@@ -27,9 +27,11 @@ class Student(Base):
 	def __repr__(self):
 		return ("Student Name: {}\n"
 				"Student Year: {} \n"
+				"Student ID: {} \n"
 				"Has Finished Lab: {}").format(
 					self.name,
 					self.year,
+					self.student_id,
 					self.finished_lab)
 
 
